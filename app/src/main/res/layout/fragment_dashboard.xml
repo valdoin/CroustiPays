@@ -1,0 +1,49 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="131dp"
+                android:layout_height="148dp"
+                android:layout_gravity="center_horizontal"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_0094__1_" />
+
+            <EditText
+                android:id="@+id/editTextSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Chercher un pays ..."
+                android:inputType="text"
+                android:maxLines="1"/>
+
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="40dp"/>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

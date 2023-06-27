@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CroustiPays</string>
+    <string name="title_home">Carte</string>
+    <string name="title_dashboard">Pays</string>
+    <string name="title_notifications">Favoris</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
